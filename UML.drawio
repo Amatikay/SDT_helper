@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T14:45:57.777Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="Oh9nlfgXbn9HjzAhLn3B" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T14:48:00.940Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="lBI_HUDEIVCBT-9tTRZY" version="22.0.6" type="github">
   <diagram name="Page-1" id="KniYVvXjkBFUdyHRl0df">
-    <mxGraphModel dx="2473" dy="1633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2473" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,11 +19,11 @@
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 11px;&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;Gamer&lt;/b&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;+ name: String&lt;br style=&quot;font-size: 11px;&quot;&gt;+ id: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Courier New;html=1;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;swimlaneLine=1;shadow=0;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1437" y="-630" width="150" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-16" value="Композиция: Отношения между целым и частью, но целое и часть не могут быть разделены. Уничтожение &quot;контейнера&quot; =&amp;gt; экземпляры будут уничтожены. Может быть двунаправленной." style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Courier New;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="AALjy2iVQTmJkf8dyK00-16" value="Композиция: Отношения между целым и частью, но целое и часть не могут быть разделены. Уничтожение &quot;контейнера&quot; =&amp;gt; экземпляры будут уничтожены. Может быть с двунаправленной ассоциацией." style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Courier New;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1654" y="-850" width="317" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-17" value="Human&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt;&#x9;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=11;swimlaneLine=1;shadow=0;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-790" width="160" height="86" as="geometry" />
+          <mxGeometry x="-1654" y="-780" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-18" value="+ head" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Courier New;shadow=0;sketch=1;curveFitting=1;jiggle=2;swimlaneLine=1;fontColor=default;labelBackgroundColor=none;" parent="AALjy2iVQTmJkf8dyK00-17" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-21" value="Head" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=11;swimlaneLine=1;shadow=0;fontColor=default;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1447" y="-772" width="110" height="50" as="geometry" />
+          <mxGeometry x="-1447" y="-766" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-22" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=11;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;swimlaneLine=1;shadow=0;fontColor=default;labelBackgroundColor=none;" parent="1" source="AALjy2iVQTmJkf8dyK00-21" target="AALjy2iVQTmJkf8dyK00-18" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
