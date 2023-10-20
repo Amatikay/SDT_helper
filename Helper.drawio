@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T08:32:13.979Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="UwA-P2gIWgInXnSYtP8j" version="22.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-20T08:45:10.563Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="Z8J-9ZC-TIZmDYLZwmiI" version="22.0.5" type="github">
   <diagram name="Page-1" id="KniYVvXjkBFUdyHRl0df">
-    <mxGraphModel dx="2150" dy="2476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1462" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Uml_classes_ru.svg/1280px-Uml_classes_ru.svg.png;rounded=1;sketch=1;curveFitting=1;jiggle=2;fontFamily=Courier New;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="543" y="-975.67" width="850" height="566.67" as="geometry" />
+          <mxGeometry x="-420" y="-1122" width="375" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="mzNYeFfV8IgYRgjsqz8I-4" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Реализация - клиент реализует поведение заданное поставщиком.&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;Отношение между интерфейсом и классом реализующим этот интерфейс.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontFamily=Courier New;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="-1169" width="367" height="79" as="geometry" />
+        <mxCell id="mzNYeFfV8IgYRgjsqz8I-4" value="&lt;div style=&quot;font-size: 13px;&quot;&gt;Реализация - клиент реализует поведение заданное поставщиком.&lt;/div&gt;&lt;div style=&quot;font-size: 13px;&quot;&gt;Отношение между интерфейсом и классом реализующим этот интерфейс.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontFamily=Courier New;" parent="1" vertex="1">
+          <mxGeometry x="-827" y="-1169" width="367" height="69" as="geometry" />
         </mxCell>
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-6" value="PersonGamer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=13;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontFamily=Courier New;" parent="1" vertex="1">
-          <mxGeometry x="-827" y="-1079" width="170" height="80" as="geometry" />
+          <mxGeometry x="-827" y="-1099" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-11" value="+ setID(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontFamily=Courier New;" parent="mzNYeFfV8IgYRgjsqz8I-6" vertex="1">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -20,34 +20,19 @@
           <mxGeometry y="52" width="170" height="28" as="geometry" />
         </mxCell>
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 13px;&quot;&gt;&lt;i style=&quot;font-size: 13px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Gamer&lt;/b&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 13px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 13px;&quot;&gt;+ name: String&lt;br style=&quot;font-size: 13px;&quot;&gt;+ id: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=13;fontFamily=Courier New;html=1;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-607" y="-1080" width="150" height="91" as="geometry" />
+          <mxGeometry x="-607" y="-1100" width="150" height="91" as="geometry" />
         </mxCell>
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-14" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=1;fontSize=13;curved=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;fontFamily=Courier New;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1" target="mzNYeFfV8IgYRgjsqz8I-10" source="mzNYeFfV8IgYRgjsqz8I-11">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-657" y="-1039" as="sourcePoint" />
-            <mxPoint x="-587" y="-1039.38" as="targetPoint" />
+            <mxPoint x="-657" y="-1059" as="sourcePoint" />
+            <mxPoint x="-587" y="-1059.38" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-9" value="Classname" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="-457" y="-359" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-10" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Courier New;" vertex="1" parent="AALjy2iVQTmJkf8dyK00-9">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=13;" vertex="1" parent="AALjy2iVQTmJkf8dyK00-9">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Courier New;" vertex="1" parent="AALjy2iVQTmJkf8dyK00-9">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-13" value="Зависимость " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="-792" y="-351" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-16" value="Композиция: Отношения между целым и частью, но целое и часть не могут быть разделены. Уничтожение &quot;контейнера&quot; =&amp;gt; экземпляры будут уничтожены" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="-827" y="-229" width="300" height="180" as="geometry" />
+        <mxCell id="AALjy2iVQTmJkf8dyK00-16" value="Композиция: Отношения между целым и частью, но целое и часть не могут быть разделены. Уничтожение &quot;контейнера&quot; =&amp;gt; экземпляры будут уничтожены" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-1009" width="317" height="69" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-17" value="Human&lt;span style=&quot;white-space: pre; font-size: 13px;&quot;&gt;&#x9;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="-442" y="-199" width="160" height="86" as="geometry" />
+          <mxGeometry x="-827" y="-940" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-18" value="+ head" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=13;fontFamily=Courier New;" vertex="1" parent="AALjy2iVQTmJkf8dyK00-17">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -59,16 +44,28 @@
           <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-21" value="Head" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=13;" vertex="1" parent="1">
-          <mxGeometry x="-167" y="-185" width="110" height="50" as="geometry" />
+          <mxGeometry x="-600" y="-922" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-22" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=13;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AALjy2iVQTmJkf8dyK00-21" target="AALjy2iVQTmJkf8dyK00-18">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-317" y="-229" as="sourcePoint" />
-            <mxPoint x="-277" y="-149" as="targetPoint" />
+            <mxPoint x="-702" y="-970" as="sourcePoint" />
+            <mxPoint x="-662" y="-890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AALjy2iVQTmJkf8dyK00-23" value="Композиция: Отношения между целым и частью, но целое и часть не могут быть разделены" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Courier New;" vertex="1" parent="1">
-          <mxGeometry x="-827" y="11" width="290" height="100" as="geometry" />
+        <mxCell id="AALjy2iVQTmJkf8dyK00-27" value="Агрегация: отношения между целым и частью, а также целым и частью могут быть разделены" style="text;whiteSpace=wrap;fontSize=13;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-740" width="327" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AALjy2iVQTmJkf8dyK00-31" value="Ассоциация - класс содержит ссылку на объект. &#xa;class ClassB { ... };&#xa;class ClassA {ClassB* ptrClassB; ... };&#xa;" style="text;whiteSpace=wrap;fontSize=13;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-850" width="317" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AALjy2iVQTmJkf8dyK00-36" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=8;endSize=8;endArrow=open;endFill=0;" edge="1" parent="1" source="AALjy2iVQTmJkf8dyK00-32" target="AALjy2iVQTmJkf8dyK00-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AALjy2iVQTmJkf8dyK00-32" value="A" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-827" y="-780" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AALjy2iVQTmJkf8dyK00-33" value="B" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-727" y="-780" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
