@@ -1,5 +1,5 @@
 # Абстракнтная фабрика
 
-![UML](./uml_pictures/Abstract_factory_UML.svg)
+![UML](./uml_pictures/AbstractFactory.png)
 
 
