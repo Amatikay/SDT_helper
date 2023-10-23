@@ -4,7 +4,7 @@
 
 
 
-```
+```c++
 // <<interface>> ProductA, ProductB, ...
 class IProcessor
 {
