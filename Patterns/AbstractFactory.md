@@ -79,6 +79,7 @@ public:
 	GetMonitor() { return new LowResolutionMonitor();}
 };
 
+// client
 class ComputerShop
 {
 	IMachineFactory *category;
