@@ -2,7 +2,10 @@
 
 ![UML](./uml_pictures/AbstractFactory.png)
 
+
+
 ```
+// <<interface>> ProductA, ProductB, ...
 class IProcessor
 {
 public:
@@ -19,7 +22,7 @@ public:
 	virtual void DisplayPicture() = 0;
 }; 
 
-
+//ProductAX,ProductAY...
 class ExpensiveProcessor : public IProcessor
 {
 public:
@@ -49,6 +52,7 @@ public:
 	}
 };
 
+// <<interface>> AbstractFactory
 class IMachineFactory
 {
 public:
@@ -57,6 +61,7 @@ public:
 	virtual IMonitor * GetMonitor() = 0;
 };
 
+// ConcreteFactoryX ConcreteFactoryY ...
 class HighBudgetMachine :public IMachineFactory
 {
 public:
