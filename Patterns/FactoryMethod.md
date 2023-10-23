@@ -1,6 +1,6 @@
 # Фабричный метод 
 
-![UML](FactoryMethod.png)
+![UML](./uml_pictures/FactoryMethod.png)
 
 ```c++
 class Product{
@@ -33,7 +33,7 @@ int main()
   ConcreteCreatorA CreatorA;
   ConcreteCreatorB CreatorB;
   // Массив создателей
-  Creator*creators[] = {&CreatorA, &CreatorB};
+  Creator* creators[] = {&CreatorA, &CreatorB};
   //Перебирайте создателей и создавайте продукты
   for(auto&& creator: creators){
     Product* product=creator->factoryMethod();
