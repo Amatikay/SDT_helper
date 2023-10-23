@@ -8,4 +8,5 @@
 ## SOLID
 SOLID.md
 ## Паттерны
-Скорее всего это будет отдельный Patterns.md
+Patterns.md  
+По каждому паттерну отдельный <PatternName>.md
