@@ -1,20 +1,23 @@
 # Фабричный метод 
 
-     +------------------------+        +------------------------+
-     |       Creator         |        |       Creator         |
-     |------------------------|        |------------------------|
-     |+ FactoryMethod():Product|        |+ FactoryMethod():Product|
-     +------------------------+        +------------------------+
-              ^                              ^
-              |                              |
-              |                              |
-     +------------------------+        +------------------------+
-     |        Product        |        |        Product        |
-     |------------------------|        |------------------------|
-     +------------------------+        +------------------------+
-     ^          ^                              ^          ^
-     |          |                              |          |
-+----|---+ +----|---+                    +----|---+ +----|---+
-|ProductA| |ProductB|                    |ProductA| |ProductB|
-+--------+ +--------+                    +--------+ +--------+
+```mermaid
+classDiagram
+direction LR
 
+ConcreteProduct <.. ConcreteCreator : Creates
+Product <|-- ConcreteProduct
+ ConcreteCreator --|> Creator
+
+  class Creator {
+    +FactoryMethod()
+  }
+
+  class ConcreteCreator{
+    +FactoryMethod()
+  }
+class ConcreteProduct{
+
+  }
+  class Product{
+  }
+```
