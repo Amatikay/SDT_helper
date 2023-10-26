@@ -8,7 +8,7 @@ public:
 	virtual void Update(string data /*Любые другие данные*/) = 0;
 };
 
-class ConcreteObserver
+class ConcreteObserver : public IObserver
 {
 	//Поля и методы
 	void Update(string data);
@@ -29,7 +29,7 @@ public:
 
 void IObservable::NotifyObserver(){
 	for(auto observer : list){
-		i->Update(data);
+		observer->Update(data);
 	}
 }
 
@@ -44,7 +44,7 @@ int main(){
 	ConcreteObservable observable;
 	ConcreteObserver observer1;
 	
-	observable.AddObseerver(&observer1);
+	observable.AddObserver(&observer1);
 
 	observable.MakeSomeChange();
 	
