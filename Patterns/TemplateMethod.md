@@ -17,13 +17,13 @@ protected:
 	void step3() {/* Реализация */}
 };
 
-class ConcreteAlgorithm_1
+class ConcreteAlgorithm_1 : public AbstractAlgorithm
 {
 protected:
 	void step1(){/* Реализация для ConcreteAlgorithm_1 */}
 	void step2(){/* Реализация для ConcreteAlgorithm_1 */}
 };
-class ConcreteAlgorithm_2
+class ConcreteAlgorithm_2 : public AbstractAlgorithm
 {
 protected:
 	void step1(){/* Реализация для ConcreteAlgorithm_2 */}
@@ -56,13 +56,13 @@ protected:
 	virtual bool need_step_3(){ return true; }
 };
 
-class ConcreteAlgorithm_1
+class ConcreteAlgorithm_1 : public AbstractAlgorithm
 {
 protected:
 	void step1(){/* Реализация для ConcreteAlgorithm_1 */}
 	void step2(){/* Реализация для ConcreteAlgorithm_1 */}
 };
-class ConcreteAlgorithm_2
+class ConcreteAlgorithm_2 : public AbstractAlgorithm
 {
 protected:
 	void step1(){/* Реализация для ConcreteAlgorithm_2 */}
