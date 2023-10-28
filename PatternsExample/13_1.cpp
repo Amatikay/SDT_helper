@@ -18,84 +18,84 @@
 class IFiller
 {
 	virtual ~IFiller();
-	virtual useColor() = 0;
-	virtual useDirection = 0;
+	virtual void useColor() = 0;
+	virtual void useDirection() = 0;
 };
 
 //Left Right variations
-class LeftRight_Continuous : public Filler
+class LeftRight_Continuous : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
-class LeftRight_intermittent : public Filler
+class LeftRight_intermittent : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
-class LeftRight_PatternBased : public Filler
+class LeftRight_PatternBased : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
 //UpDown variations
-class UpDown_Continuous : public Filler
+class UpDown_Continuous : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
-class UpDown_intermittent : public Filler
+class UpDown_intermittent : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
-class UpDown_PatternBased : public Filler
+class UpDown_PatternBased : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
 //DownUp variations
-class DownUp_Continuous : public Filler
+class DownUp_Continuous : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
-class DownUp_intermittent : public Filler
+class DownUp_intermittent : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
-class DownUp_PatternBased : public Filler
+class DownUp_PatternBased : public IFiller
 {
 public:
-	useColor() {/*Реализация*/}
-	useDirection()  {/*Реализация*/}
+	void useColor() {/*Реализация*/}
+	void useDirection()  {/*Реализация*/}
 };
 
 
 class I_Indicator{
 
 protected:
-	Filler* filler;
+	IFiller* filler;
 public:
 	virtual void setFiller() = 0;
-	virtual void useFiller(Filler* filler) = 0;
+	virtual void useFiller(IFiller* filler) = 0;
 	std::pair<int,int> diapason;
 	int position;
 };
@@ -103,8 +103,8 @@ public:
 class Indicator : piblic I_Indicator
 {
 public:
-	void setFiller(Filler* filler){this->filler=filler; }
-	void useFiller(){ filler->useColor; filler->setSirection }
+	void setFiller(IFiller* filler){this->filler=filler; }
+	void useFiller(){ filler->useColor(); filler->setDirection() }
 };
 
 class UserApplication()
@@ -113,8 +113,8 @@ class UserApplication()
 public:
 	UseIndicator(){
 		DownUp_PatternBased  colorDirection;
-		this->indicator.setFiller(& colorDirection);
-		this->insicator.useFiller();
+		this->indicator->setFiller(&colorDirection);
+		this->insicator->useFiller();
 	}
 };
 
