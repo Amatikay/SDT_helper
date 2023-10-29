@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T11:12:48.312Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="gq9VgM_jgYRvfDh27HxZ" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T11:13:22.087Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="yojXsnIOu7_NR5mjH2wY" version="22.0.8" type="github">
   <diagram name="Page-1" id="KniYVvXjkBFUdyHRl0df">
     <mxGraphModel dx="4044" dy="2489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-4" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;Реализация - клиент реализует поведение заданное поставщиком.&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;Отношение между интерфейсом и классом реализующим этот интерфейс.&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=11;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontFamily=Helvetica;swimlaneLine=1;shadow=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-581" width="204" height="54" as="geometry" />
+          <mxGeometry x="-1081" y="-690" width="204" height="54" as="geometry" />
         </mxCell>
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-6" value="PersonGamer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=11;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontFamily=Helvetica;swimlaneLine=1;shadow=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-515.5" width="104" height="80" as="geometry" />
+          <mxGeometry x="-1081" y="-624.5" width="104" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-11" value="+ setID(int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontFamily=Helvetica;swimlaneLine=1;shadow=0;fontColor=#000000;" parent="mzNYeFfV8IgYRgjsqz8I-6" vertex="1">
           <mxGeometry y="26" width="104" height="26" as="geometry" />
@@ -17,13 +17,13 @@
           <mxGeometry y="52" width="104" height="28" as="geometry" />
         </mxCell>
         <mxCell id="mzNYeFfV8IgYRgjsqz8I-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 11px;&quot;&gt;&lt;i style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;font-size: 11px;&quot;&gt;Gamer&lt;/b&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 11px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px; font-size: 11px;&quot;&gt;+ name: String&lt;br style=&quot;font-size: 11px;&quot;&gt;+ id: int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=11;fontFamily=Helvetica;html=1;whiteSpace=wrap;rounded=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;swimlaneLine=1;shadow=0;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-1520" y="-510" width="84" height="74.5" as="geometry" />
+          <mxGeometry x="-947" y="-619" width="84" height="74.5" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-16" value="Композиция: Отношения между целым и частью, но целое и часть не могут быть разделены. Уничтожение &quot;контейнера&quot; =&amp;gt; экземпляры будут уничтожены. Может быть с двунаправленной ассоциацией." style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-761" width="224" height="56" as="geometry" />
+          <mxGeometry x="-1081" y="-870" width="224" height="56" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-17" value="Human&lt;span style=&quot;white-space: pre; font-size: 11px;&quot;&gt;&#x9;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-681" width="94" height="86" as="geometry" />
+          <mxGeometry x="-1081" y="-790" width="94" height="86" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-18" value="+ head" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=11;fontFamily=Helvetica;shadow=0;sketch=1;curveFitting=1;jiggle=2;swimlaneLine=1;fontColor=#000000;labelBackgroundColor=none;" parent="AALjy2iVQTmJkf8dyK00-17" vertex="1">
           <mxGeometry y="26" width="94" height="26" as="geometry" />
@@ -35,61 +35,61 @@
           <mxGeometry y="60" width="94" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-21" value="Head" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1514" y="-658" width="50.5" height="32" as="geometry" />
+          <mxGeometry x="-941" y="-767" width="50.5" height="32" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-22" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="AALjy2iVQTmJkf8dyK00-21" target="AALjy2iVQTmJkf8dyK00-18" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1526" y="-711" as="sourcePoint" />
-            <mxPoint x="-1486" y="-631" as="targetPoint" />
+            <mxPoint x="-953" y="-820" as="sourcePoint" />
+            <mxPoint x="-913" y="-740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-27" value="Агрегация: отношения между целым и частью, а также целым и частью могут быть разделены" style="text;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-871" width="244" height="40" as="geometry" />
+          <mxGeometry x="-1081" y="-980" width="244" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-31" value="Ассоциация - класс содержит ссылку на объект. &#xa;class ClassB { ... };&#xa;class ClassA {ClassB* ptrClassB; ... };&#xa;Общий случай композиции и агрегации&#xa;Может быть двунаправленной&#xa;&#xa;&#xa;" style="text;whiteSpace=wrap;fontSize=11;fontFamily=Helvetica;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-968" width="254" height="77" as="geometry" />
+          <mxGeometry x="-1081" y="-1077" width="254" height="77" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-36" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;startSize=8;endSize=8;endArrow=open;endFill=0;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="AALjy2iVQTmJkf8dyK00-32" target="AALjy2iVQTmJkf8dyK00-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-32" value="A" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-891" width="24" height="20" as="geometry" />
+          <mxGeometry x="-1081" y="-1000" width="24" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-33" value="B" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1594" y="-891" width="34" height="20" as="geometry" />
+          <mxGeometry x="-1021" y="-1000" width="34" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-38" value="Clothes" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1490" y="-811" width="54" height="30" as="geometry" />
+          <mxGeometry x="-917" y="-920" width="54" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-41" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Зависимость - поставщик влияет на работу зависимоого, но не наоборот&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-1060" width="124" height="59" as="geometry" />
+          <mxGeometry x="-1081" y="-1169" width="124" height="59" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-44" style="sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=11;startSize=8;endSize=8;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;startFill=0;rounded=0;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="AALjy2iVQTmJkf8dyK00-42" target="AALjy2iVQTmJkf8dyK00-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-42" value="Car" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-1000" width="34" height="29" as="geometry" />
+          <mxGeometry x="-1081" y="-1109" width="34" height="29" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-43" value="Oil" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1588" y="-1001" width="34" height="29" as="geometry" />
+          <mxGeometry x="-1015" y="-1110" width="34" height="29" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-46" value="&lt;div align=&quot;left&quot; style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Наследование - отношение между родительским и дочерним классом&lt;/font&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontFamily=Helvetica;swimlaneLine=1;sketch=1;curveFitting=1;jiggle=2;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1522.25" y="-1055" width="102.25" height="49" as="geometry" />
+          <mxGeometry x="-949.25" y="-1164" width="102.25" height="49" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-49" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=11;startSize=8;endSize=8;endArrow=classic;endFill=1;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="AALjy2iVQTmJkf8dyK00-47" target="AALjy2iVQTmJkf8dyK00-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-47" value="Car" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1522.25" y="-1001" width="32.25" height="20" as="geometry" />
+          <mxGeometry x="-949.25" y="-1110" width="32.25" height="20" as="geometry" />
         </mxCell>
         <mxCell id="AALjy2iVQTmJkf8dyK00-48" value="Taxi" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1463.5" y="-1001" width="37.5" height="24" as="geometry" />
+          <mxGeometry x="-890.5" y="-1110" width="37.5" height="24" as="geometry" />
         </mxCell>
         <mxCell id="4lhPUMysehMYBJ7O9rcl-5" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;startSize=8;endSize=8;startArrow=diamondThin;startFill=0;endArrow=none;endFill=0;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" source="4lhPUMysehMYBJ7O9rcl-1" target="AALjy2iVQTmJkf8dyK00-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4lhPUMysehMYBJ7O9rcl-1" value="BusDriver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Helvetica;fontSize=11;swimlaneLine=1;shadow=0;fontColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1654" y="-826" width="134" height="60" as="geometry">
+          <mxGeometry x="-1081" y="-935" width="134" height="60" as="geometry">
             <mxRectangle x="-1300" y="-916" width="180" height="66" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -103,7 +103,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PUSm1_drb5LB7ukwJLFD-7" value="" style="group;rotation=-180;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1149" y="-1169" width="322.5" height="618" as="geometry" />
+          <mxGeometry x="-1654" y="-1169" width="322.5" height="618" as="geometry" />
         </mxCell>
         <mxCell id="q5-3M76ahMOB0eZVkOTN-3" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;S Принцип единственной ответственности.&lt;/b&gt;&lt;br&gt;Для каждого класса должно быть определено единственное назначение.&lt;br&gt;Все ресурсы, необходимые для его осуществления, должны быть инкапсулированы в этот класс и подчинены только этой задаче.&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;Решение: Разделить большой класс на множество маленьких.&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-180;" parent="PUSm1_drb5LB7ukwJLFD-7" vertex="1">
           <mxGeometry x="52" y="490" width="270" height="128" as="geometry" />
