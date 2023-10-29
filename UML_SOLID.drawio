@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T10:04:43.624Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="DH-1D01n-Ygl2EJlDC77" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T10:07:22.724Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="gYyVv1M2TfgdtZcO3hIb" version="22.0.8" type="github">
   <diagram name="Page-1" id="KniYVvXjkBFUdyHRl0df">
     <mxGraphModel dx="3088" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,12 @@
         </mxCell>
         <mxCell id="q5-3M76ahMOB0eZVkOTN-8" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;L Принцип подстановки Лисков&lt;/b&gt;&lt;br&gt;Функции, которые используют базовый тип, должны иметь возможность использовать подтипы базового типа не зная об этом.&amp;nbsp; &lt;br&gt;&lt;i&gt;Решение: Переопределение методов наследника так, чтобы они соответсвовали пред и пост условиям родителя. Создать интерфейс верхнего уровня.&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="-970" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q5-3M76ahMOB0eZVkOTN-9" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;I Принцип разделения интерфейса&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Много интерфейсов, специально предназначенных для клиентов, лучше, чем один интерфейс общего назначения.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;Решение: Создать несколько интерфейсов для отдельных задач. Пусть наследуется несколько нужных интерфейсов.&lt;/i&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;`class Square : public IDrawable, public IRotatable{}`&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="-856" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q5-3M76ahMOB0eZVkOTN-10" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;D Принцип инверсии зависимостей&lt;/b&gt;&lt;br&gt;Зависимость на Абстракциях. Нет зависимости на что-то конкретное.&amp;nbsp; &lt;br&gt;&lt;i&gt;Решение: Создание высокоуровневого интерфейса который будет связан в свысокоуровневыми классамии его будут реализовывать низкоуровненвые классы.&lt;/i&gt;&lt;br&gt;&lt;i&gt;`class Report{ IDatabase* database; ... } class MySQL_DB: public IDatabase {}` &lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1270" y="-761.5" width="350" height="125.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
