@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T10:46:31.306Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="LPIFdXQ2WWP0dpQUH8ay" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T10:46:43.878Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="NgkwsGweP7SzaaNZVS9U" version="22.0.8" type="github">
   <diagram name="Page-1" id="KniYVvXjkBFUdyHRl0df">
     <mxGraphModel dx="3088" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -102,12 +102,6 @@
         <mxCell id="4lhPUMysehMYBJ7O9rcl-7" style="edgeStyle=none;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=16;dashed=1;endArrow=block;endFill=1;endSize=8;fontColor=#000000;" parent="1" source="mzNYeFfV8IgYRgjsqz8I-11" target="mzNYeFfV8IgYRgjsqz8I-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7xnrLIFtUW-HY6vUkPnu-1" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontColor=#000000;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1400" y="-449" as="sourcePoint" />
-            <mxPoint x="-1400" y="-1169" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="q5-3M76ahMOB0eZVkOTN-3" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;S Принцип единственной ответственности.&lt;/b&gt;&lt;br&gt;Для каждого класса должно быть определено единственное назначение.&lt;br&gt;Все ресурсы, необходимые для его осуществления, должны быть инкапсулированы в этот класс и подчинены только этой задаче.&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;Решение: Разделить большой класс на множество маленьких.&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1397.5" y="-1158" width="270" height="128" as="geometry" />
         </mxCell>
@@ -122,12 +116,6 @@
         </mxCell>
         <mxCell id="q5-3M76ahMOB0eZVkOTN-10" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;D Принцип инверсии зависимостей&lt;/b&gt;&lt;br&gt;Зависимость на Абстракциях. Нет зависимости на что-то конкретное.&amp;nbsp; &lt;br&gt;&lt;i&gt;Решение: Создание высокоуровневого интерфейса который будет связан в свысокоуровневыми классамии его будут реализовывать низкоуровненвые классы.&lt;/i&gt;&lt;br&gt;&lt;i&gt;`class Report{ IDatabase* database; ... } class MySQL_DB: public IDatabase {}` &lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1395" y="-670" width="315" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="mdWKEpG6WtXByrN_h4Xt-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1650" y="-540" as="sourcePoint" />
-            <mxPoint x="-840" y="-540" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
