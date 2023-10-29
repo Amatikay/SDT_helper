@@ -46,13 +46,13 @@ class HtcSmartphone: ISmartphone{
 
 
 class NokiaSimplePhone: ISImplePhone{
-	returnDataAboutSmartphoneType(){ /*Realization*/}
+	returnDataAboutSimplePhoneType(){ /*Realization*/}
 };
 class SamsungSimplePhone: ISimplePhone{
-	returnDataAboutSmartphoneType(){ /*Realization*/}
+	returnDataAboutSimplePhoneType(){ /*Realization*/}
 };
 class HtcSimplePhone: ISimplePhone{
-	returnDataAboutSmartphoneType(){ /*Realization*/}
+	returnDataAboutSimplePhoneType(){ /*Realization*/}
 };
 
 
@@ -68,26 +68,26 @@ public:
 
 class Nokia : public PhoneCompany
 {
-public
+public:
 	ISmartphone* createSmartphone() { return new NokiaSmartphone() }
 	ISimplePhone* createSimplePhone() { return new NokiaSimplePhone() }
 };
 class Samsung : public PhoneCompany
 {
-public
+public:
 	ISmartphone* createSmartphone() { return new SamsingSmartphone() }
 	ISimplePhone* createSimplePhone() { return new SamsungSimplePhone() }
 };
 class Htc : public PhoneCompany
 {
-public
+public:
 	ISmartphone* createSmartphone() { return new HtcSmartphone() }
 	ISimplePhone* createSimplePhone() { return new HtcSimplePhone() }
 };
 
 class DataReturner
 {
-	PhoneCompay* phoneCompany;
+	PhoneCompany* phoneCompany;
 public:
 	DataReturner (PhoneCompany* _phoneCompany) { phoneCompany = _phoneCompany; }
 	MakeData(){
@@ -99,7 +99,7 @@ public:
 };
 
 int main(){
-	PhoneCompany* phoneCompany = new SamsungSmartphone();
+	PhoneCompany* phoneCompany = new Samsung();
 	DataReturner* dataReturner = new DataReturner(phoneCompany);
 	dataReturner->MakeData();
 	return 0;
