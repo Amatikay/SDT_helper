@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T17:25:52.151Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="-tihOncGVrzGuvOa_2VM" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T17:27:22.062Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="7GuaRzL3P7nDlvDUJvjI" version="22.0.8" type="github">
   <diagram name="Page-1" id="BoClkutDQAhslehwrVNh">
-    <mxGraphModel dx="1687" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,19 +20,19 @@
           <mxGeometry x="-0.22999999999999998" y="210" width="298.56" height="240" as="geometry" />
         </mxCell>
         <mxCell id="c_21xc94MHx_ofup2Neq-50" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;Наблюдатель&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px;&quot;&gt;Определяет зависимость типа один ко многим между объектами таким &lt;br style=&quot;font-size: 11px;&quot;&gt;образом, что при изменении состояния одного объекта все зависящие от &lt;br style=&quot;font-size: 11px;&quot;&gt;него оповещаются об этом событии.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="518.5" y="90" width="305" height="90" as="geometry" />
+          <mxGeometry x="522" y="90" width="305" height="90" as="geometry" />
         </mxCell>
         <mxCell id="c_21xc94MHx_ofup2Neq-51" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;Абстратная фабрика&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px;&quot;&gt;Предоставляет интерфейс для создания семейств взаимосвязанных или &lt;br style=&quot;font-size: 11px;&quot;&gt;взаимозависимых объектов, не специфицируя их конкретных классов.&lt;br style=&quot;font-size: 11px;&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="518.5" y="10" width="298" height="80" as="geometry" />
+          <mxGeometry x="522" y="10" width="298" height="80" as="geometry" />
         </mxCell>
         <mxCell id="c_21xc94MHx_ofup2Neq-52" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;Шаблонный метод&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px;&quot;&gt;Оперделяет структуру алгоритма и позволяет наследникам переопределять некоторые шаги алгоритма.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="518.5" y="180" width="298" height="120" as="geometry" />
+          <mxGeometry x="522" y="190" width="298" height="120" as="geometry" />
         </mxCell>
         <mxCell id="c_21xc94MHx_ofup2Neq-55" value="&lt;h1 style=&quot;font-size: 11px;&quot;&gt;Фабричный метод&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;font-size: 11px;&quot;&gt;Определяет интерфейс для создания объекта, но оставляет подклассам решение о том, на основании какого класса создавать объект. Фабричный метод позволяет классу делегировать создание подклассов&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=11;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="518.5" y="350" width="298" height="120" as="geometry" />
+          <mxGeometry x="522" y="360" width="298" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0d9XtuFkpqQPsv87mLYu-2" value="&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Стратегия&lt;/b&gt;&lt;/div&gt;&lt;p&gt;Семейство алгоритмов, инкапсуляции каждого из них и обеспечения их взаимозаменяемости. Когда в одном и том же месте в зависимости от состояния системы используются разные алгоритмы&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="518.5" y="240" width="298" height="100" as="geometry" />
+          <mxGeometry x="522" y="250" width="298" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
