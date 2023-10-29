@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T13:23:45.373Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" version="22.0.8" etag="HO7OVAgjm3-ADAOE8HGi" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T14:37:07.951Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="KHJ68pjvyjI6UzBQ26SY" version="22.0.8" type="github">
   <diagram name="Page-1" id="BoClkutDQAhslehwrVNh">
-    <mxGraphModel>
+    <mxGraphModel dx="1147" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="c_21xc94MHx_ofup2Neq-42" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Abstract_factory_UML.svg/1200px-Abstract_factory_UML.svg.png;" vertex="1" parent="1">
+          <mxGeometry width="272.04" height="180" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
