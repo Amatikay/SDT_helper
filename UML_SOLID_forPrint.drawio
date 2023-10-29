@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-29T11:04:58.106Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="D7jGSXiABtJYQy3W5SG1" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-29T11:06:49.390Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="x7MSt0s1obbh6ftH-AsY" version="22.0.8" type="github">
   <diagram name="Page-1" id="KniYVvXjkBFUdyHRl0df">
     <mxGraphModel dx="4044" dy="2489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -103,7 +103,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PUSm1_drb5LB7ukwJLFD-7" value="" style="group;rotation=-180;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1654" y="-624.5" width="322.5" height="618" as="geometry" />
+          <mxGeometry x="-1654" y="-618" width="322.5" height="618" as="geometry" />
         </mxCell>
         <mxCell id="q5-3M76ahMOB0eZVkOTN-3" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;S Принцип единственной ответственности.&lt;/b&gt;&lt;br&gt;Для каждого класса должно быть определено единственное назначение.&lt;br&gt;Все ресурсы, необходимые для его осуществления, должны быть инкапсулированы в этот класс и подчинены только этой задаче.&amp;nbsp; &lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;i&gt;Решение: Разделить большой класс на множество маленьких.&lt;/i&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-180;" parent="PUSm1_drb5LB7ukwJLFD-7" vertex="1">
           <mxGeometry x="52" y="490" width="270" height="128" as="geometry" />
